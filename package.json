@@ -9,16 +9,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-<<<<<<< HEAD
     "react-redux": "^9.2.0",
     "react-scripts": "5.0.1",
     "redux": "^5.0.1",
     "redux-logger": "^3.0.6",
-=======
-    "react-redux": "^8.0.5",
-    "react-scripts": "5.0.1",
-    "redux": "^4.2.0",
->>>>>>> c8df265bba97759761fbeb2d33cbe8012a166f00
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
