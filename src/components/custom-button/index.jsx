@@ -1,15 +1,13 @@
 import React from "react";
+import { CustomButtonContainer, IconContainer } from "./styles";
 
-// Styles
-import * as Styles from "./styles";
-
-const CustomButton = ({ children, startIcon, ...rest }) => {
+const CustomButton = ({ children, startIcon, onClick, ...rest }) => {
   return (
-    <Styles.CustomButtonContainer {...rest}>
-      {startIcon && <Styles.IconContainer>{startIcon}</Styles.IconContainer>}
+    <CustomButtonContainer {...rest} onClick={onClick}>
+      {startIcon && <IconContainer>{startIcon}</IconContainer>}
 
       {children}
-    </Styles.CustomButtonContainer>
+    </CustomButtonContainer>
   );
 };
 
